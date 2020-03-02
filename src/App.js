@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import test from "./test-orverrides";
+import test from "./test-overrides";
 
 test(1);
 

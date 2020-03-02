@@ -23,7 +23,7 @@
     },
     "overrides": [
       {
-        "files": ["src/test-orverrides.js"],
+        "files": ["src/test-overrides.js"],
         "rules": {
           "no-param-reassign": "off"
         }
