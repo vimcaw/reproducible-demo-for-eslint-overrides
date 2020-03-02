@@ -17,7 +17,18 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": ["react-app"],
+    "rules": {
+      "no-param-reassign": "error"
+    },
+    "overrides": [
+      {
+        "files": ["src/test-orverrides.js"],
+        "rules": {
+          "no-param-reassign": "off"
+        }
+      }
+    ]
   },
   "browserslist": {
     "production": [
